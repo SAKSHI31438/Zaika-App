@@ -20,9 +20,7 @@ import { auth } from "./utils/firebase";
 import { useEffect } from 'react'
 import { addUser, removeUser } from './utils/userSlice'
 import { onAuthStateChanged } from 'firebase/auth'
-import FormSubmit from './components/formSubmit'
-
-
+import FormSubmit from './components/FormSubmit'
  
 
 function App() {
